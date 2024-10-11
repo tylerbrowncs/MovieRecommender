@@ -1,0 +1,64 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    width: 100vw;
+  }
+  
+  .register-panel {
+    background-color: #ebeadf;
+    padding: 20px;
+    padding-right: 50px;
+    width: 25vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .alertText {
+    text-align: center;
+    color: #db4744;
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #32343c;
+    background-color: #f1f1ea;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #db4744;
+    color: #32343c;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ea302d;
+  }
+
+  @media (max-width: 768px) {
+    .register-panel {
+        padding-right: 20px;
+        max-height: none;
+    }
+}

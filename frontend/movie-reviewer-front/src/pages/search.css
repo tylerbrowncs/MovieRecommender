@@ -1,0 +1,130 @@
+
+.allMovies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+    margin-right: 5vw;
+    padding: 0;
+}
+
+
+.movie {
+    position: relative;
+    background:rgba(0, 0, 0, 0.7);
+    width: 250px;
+    height: 365px; 
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+.movie img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    align-self: flex-end;
+}
+
+.movieName {
+    background: rgba(0, 0, 0, 0.7);
+}
+.movie > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+.movie p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.movie h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.searchPage {
+    text-align: center;
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  }
+  
+  .search-container {
+    display: inline-block;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    margin-right: 10px; 
+  }
+  
+.searchImage {
+    cursor: pointer; 
+  }
+
+.search {
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+input {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family:"Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.allUsers {
+    display: flex;
+    margin: 50px;
+    margin-left: 10vw;
+}
+
+.allUsers a {
+    margin: 10px;
+    box-shadow: 0 0 7px #db4744;
+    border-radius: 50%;
+
+}
+
+.userSearchIMG {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userSearchIMG p {
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  text-decoration: None;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+@media (max-width: 768px) {
+    .movie {
+        margin: 10px;
+    }}
